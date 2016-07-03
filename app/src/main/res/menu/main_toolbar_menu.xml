@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <!--android.support.v7.widget.AppCompatButton-->
+    <!--com.picturecapture.MyImageButton-->
+
+    <item
+        android:id="@+id/pic_lib"
+        android:orderInCategory="80"
+        android:title="pic_lib"
+        app:showAsAction="ifRoom"
+        android:showAsAction="ifRoom"
+        android:icon="@mipmap/ic_photo_library_black_48dp" />
+
+</menu>

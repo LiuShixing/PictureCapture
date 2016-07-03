@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.picturecapture.MainActivity">
+
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/main_toolbar"/>
+
+
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp">
+        <EditText
+            android:id="@+id/web_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+
+            android:hint="输入地址"/>
+       <Button
+        android:id="@+id/capture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="抓取"
+        android:background="#00FF00"
+        android:textSize="18dp"
+        android:layout_weight="1"
+        android:scaleX="0.5"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
